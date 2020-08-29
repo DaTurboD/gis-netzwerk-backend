@@ -1,0 +1,10 @@
+{
+    "provider": "google-cloud-storage",
+    "providerOptions": {
+      "serviceAccount": "${process.env.GCS_SERVICE_ACCOUNT}",
+      "bucketName": "${process.env.GCS_BUCKET_NAME}",
+      "baseUrl": "${process.env.GCS_BASE_URL}",
+      "basePath": "${process.env.GCS_BASE_PATH}",
+      "publicFiles": true
+    }
+  }
