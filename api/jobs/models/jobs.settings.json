@@ -22,6 +22,11 @@
         "Vollzeit",
         "Teilzeit"
       ]
+    },
+    "jobDescription": {
+      "type": "richtext",
+      "maxLength": 1000,
+      "required": true
     }
   }
 }
