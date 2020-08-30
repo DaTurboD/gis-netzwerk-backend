@@ -10,6 +10,6 @@ module.exports = ({ env }) => ({
     enabled: true,
     ssl: true,
     host: "api.gis-netzwerk.com",
-    port: 1337
+    port: 443
   }
 });
