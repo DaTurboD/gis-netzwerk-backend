@@ -51,6 +51,13 @@
       "repeatable": false,
       "component": "images.post-image",
       "required": false
+    },
+    "lang": {
+      "type": "enumeration",
+      "enum": [
+        "de",
+        "en"
+      ]
     }
   }
 }
