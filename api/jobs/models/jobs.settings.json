@@ -12,6 +12,9 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "company": {
+      "type": "string"
     }
   }
 }
