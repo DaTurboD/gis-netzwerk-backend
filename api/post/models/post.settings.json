@@ -23,17 +23,6 @@
       "required": true,
       "maxLength": 320
     },
-    "coverImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "date": {
       "type": "date",
       "required": true
@@ -56,6 +45,12 @@
         "published",
         "draft"
       ]
+    },
+    "coverImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.post-image",
+      "required": false
     }
   }
 }

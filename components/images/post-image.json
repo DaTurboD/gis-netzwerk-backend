@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_images_post_images",
+  "info": {
+    "name": "postImage",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "coverImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}
