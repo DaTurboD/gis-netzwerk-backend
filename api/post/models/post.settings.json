@@ -35,10 +35,6 @@
     "author": {
       "model": "author"
     },
-    "tags": {
-      "collection": "tag",
-      "via": "post"
-    },
     "status": {
       "type": "enumeration",
       "enum": [
@@ -58,6 +54,10 @@
         "de",
         "en"
       ]
+    },
+    "tags": {
+      "via": "posts",
+      "collection": "tag"
     }
   }
 }
