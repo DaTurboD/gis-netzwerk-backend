@@ -1,5 +1,5 @@
 {
-  "host": "env('HOST', '0.0.0.0')",
+  "host": "env('HOST', 'api.gis-netzwerk.com')",
   "port": "env.int('PORT', 1337)",
   "url": "https://api.gis-netzwerk.com",
   "proxy": {
