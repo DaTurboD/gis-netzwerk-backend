@@ -1,8 +1,8 @@
 {
-  "name": "gis-netzwerk-strapi",
+  "name": "GIS-Netzwerk-Strapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Strapi (CMS) for GIS-Netzwerk",
   "scripts": {
     "dev": "strapi develop",
     "start": "strapi start",
