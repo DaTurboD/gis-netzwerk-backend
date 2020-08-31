@@ -1,3 +1,3 @@
-# Strapi application
+# CMS for GIS-Netzwerk
 
-A quick description of your strapi application
+Strapi-CMS for GIS-Netzwerk.
