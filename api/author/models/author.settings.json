@@ -27,17 +27,10 @@
       "plugin": "upload",
       "required": false
     },
-    "github": {
-      "type": "string"
-    },
-    "linkedin": {
-      "type": "string"
-    },
-    "twitter": {
-      "type": "string"
-    },
-    "instagram": {
-      "type": "string"
+    "socials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "author.author-socials"
     }
   }
 }
