@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_socials_author_socials",
+  "info": {
+    "name": "AuthorSocials",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "plattform": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

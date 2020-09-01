@@ -29,8 +29,8 @@
     },
     "socials": {
       "type": "component",
-      "repeatable": false,
-      "component": "author.author-socials"
+      "repeatable": true,
+      "component": "socials.author-socials"
     }
   }
 }
