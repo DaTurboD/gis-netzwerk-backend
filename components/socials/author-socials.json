@@ -7,7 +7,14 @@
   "options": {},
   "attributes": {
     "plattform": {
-      "type": "string"
+      "type": "enumeration",
+      "enum": [
+        "Twitter",
+        "GitHub",
+        "Linkedin",
+        "Instagram"
+      ],
+      "unique": true
     },
     "link": {
       "type": "string"
