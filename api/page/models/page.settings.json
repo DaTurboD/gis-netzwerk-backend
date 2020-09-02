@@ -20,6 +20,10 @@
     "date": {
       "type": "date",
       "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
