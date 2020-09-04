@@ -27,6 +27,10 @@
       "collection": "post",
       "via": "tags",
       "dominant": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
