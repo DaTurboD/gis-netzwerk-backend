@@ -15,7 +15,7 @@
       "unique": true
     },
     "description": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "color": {
@@ -24,8 +24,8 @@
       "unique": true
     },
     "posts": {
-      "collection": "post",
       "via": "tags",
+      "collection": "post",
       "dominant": true
     },
     "slug": {

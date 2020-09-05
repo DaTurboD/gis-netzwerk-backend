@@ -56,8 +56,12 @@
       ]
     },
     "tags": {
-      "via": "posts",
-      "collection": "tag"
+      "collection": "tag",
+      "via": "posts"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
