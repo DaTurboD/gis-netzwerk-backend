@@ -5,4 +5,8 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+    async create() {
+        return 'success';
+      },
+};
