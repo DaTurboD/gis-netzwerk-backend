@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "datenschutzerklaerungs",
+  "info": {
+    "name": "Datenschutzerklärung"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

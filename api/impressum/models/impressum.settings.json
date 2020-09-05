@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "pages",
+  "kind": "singleType",
+  "collectionName": "impressums",
   "info": {
-    "name": "Page"
+    "name": "Impressum"
   },
   "options": {
     "increments": true,
@@ -10,20 +10,20 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
     },
     "content": {
       "type": "richtext"
     },
-    "date": {
-      "type": "date",
-      "required": true
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }

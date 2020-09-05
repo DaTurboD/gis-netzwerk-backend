@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/impressum",
+      "handler": "impressum.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/impressum",
+      "handler": "impressum.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/impressum",
+      "handler": "impressum.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
