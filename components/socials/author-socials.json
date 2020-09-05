@@ -12,7 +12,8 @@
         "Twitter",
         "GitHub",
         "Linkedin",
-        "Instagram"
+        "Instagram",
+        "Facebook"
       ],
       "unique": true
     },
