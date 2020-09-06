@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_socials_author_socials",
+  "collectionName": "components_socials_user_socials",
   "info": {
-    "name": "AuthorSocials",
+    "name": "UserSocials",
     "icon": "address-card"
   },
   "options": {},

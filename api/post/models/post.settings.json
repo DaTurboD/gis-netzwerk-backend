@@ -33,9 +33,6 @@
       "targetField": "title",
       "required": true
     },
-    "author": {
-      "model": "author"
-    },
     "status": {
       "type": "enumeration",
       "enum": [
