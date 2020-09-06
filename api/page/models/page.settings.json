@@ -21,6 +21,11 @@
     },
     "date": {
       "type": "date"
+    },
+    "description": {
+      "type": "text",
+      "required": false,
+      "maxLength": 160
     }
   }
 }
