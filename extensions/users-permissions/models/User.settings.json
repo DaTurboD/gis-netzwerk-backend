@@ -52,6 +52,25 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
+    },
+    "bio": {
+      "type": "text"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "socials.author-socials"
     }
   }
 }

@@ -27,6 +27,10 @@
       "type": "richtext",
       "maxLength": 1000,
       "required": true
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
