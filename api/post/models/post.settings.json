@@ -21,7 +21,8 @@
     "excerpt": {
       "type": "text",
       "required": true,
-      "maxLength": 320
+      "maxLength": 160,
+      "minLength": 50
     },
     "date": {
       "type": "date",
@@ -56,8 +57,8 @@
       ]
     },
     "tags": {
-      "collection": "tag",
-      "via": "posts"
+      "via": "posts",
+      "collection": "tag"
     },
     "user": {
       "plugin": "users-permissions",
