@@ -42,6 +42,10 @@
         "unbefristet",
         "befristet"
       ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
