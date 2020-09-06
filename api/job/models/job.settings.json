@@ -13,9 +13,6 @@
       "type": "string",
       "required": true
     },
-    "company": {
-      "type": "string"
-    },
     "location": {
       "type": "string"
     },
