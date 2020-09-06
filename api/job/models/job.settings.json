@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "jobs",
   "info": {
-    "name": "Jobs"
+    "name": "Job"
   },
   "options": {
     "increments": true,
@@ -16,21 +16,32 @@
     "company": {
       "type": "string"
     },
-    "type": {
+    "location": {
+      "type": "string"
+    },
+    "jobDescription": {
+      "type": "richtext"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "workingTime": {
       "type": "enumeration",
       "enum": [
         "Vollzeit",
         "Teilzeit"
       ]
     },
-    "jobDescription": {
-      "type": "richtext",
-      "maxLength": 1000,
-      "required": true
+    "date": {
+      "type": "date"
     },
-    "user": {
-      "plugin": "users-permissions",
-      "model": "user"
+    "contractType": {
+      "type": "enumeration",
+      "enum": [
+        "unbefristet",
+        "befristet"
+      ]
     }
   }
 }
