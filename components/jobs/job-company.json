@@ -9,9 +9,6 @@
     "name": {
       "type": "string"
     },
-    "location": {
-      "type": "string"
-    },
     "logo": {
       "model": "file",
       "via": "related",

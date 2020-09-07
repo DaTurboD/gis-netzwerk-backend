@@ -44,6 +44,15 @@
       "type": "component",
       "repeatable": false,
       "component": "jobs.job-company"
+    },
+    "workingHours": {
+      "type": "integer"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
     }
   }
 }
