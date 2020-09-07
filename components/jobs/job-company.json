@@ -22,6 +22,9 @@
     },
     "size": {
       "type": "string"
+    },
+    "websiteUrl": {
+      "type": "string"
     }
   }
 }
