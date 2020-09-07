@@ -13,15 +13,8 @@
       "type": "string",
       "required": true
     },
-    "location": {
-      "type": "string"
-    },
     "jobDescription": {
       "type": "richtext"
-    },
-    "user": {
-      "plugin": "users-permissions",
-      "model": "user"
     },
     "workingTime": {
       "type": "enumeration",
@@ -43,6 +36,14 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "vacationDays": {
+      "type": "integer"
+    },
+    "company": {
+      "type": "component",
+      "repeatable": false,
+      "component": "jobs.job-company"
     }
   }
 }
