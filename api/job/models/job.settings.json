@@ -53,6 +53,9 @@
     },
     "location": {
       "type": "string"
+    },
+    "applicationLink": {
+      "type": "string"
     }
   }
 }
