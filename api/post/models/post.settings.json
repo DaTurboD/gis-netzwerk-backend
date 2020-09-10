@@ -38,7 +38,8 @@
       "enum": [
         "published",
         "draft"
-      ]
+      ],
+      "default": "draft"
     },
     "coverImage": {
       "type": "component",
@@ -54,8 +55,8 @@
       ]
     },
     "tags": {
-      "via": "posts",
-      "collection": "tag"
+      "collection": "tag",
+      "via": "posts"
     },
     "user": {
       "plugin": "users-permissions",

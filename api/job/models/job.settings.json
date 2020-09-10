@@ -62,7 +62,8 @@
       "enum": [
         "published",
         "draft"
-      ]
+      ],
+      "default": "draft"
     }
   }
 }
