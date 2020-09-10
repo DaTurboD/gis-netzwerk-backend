@@ -21,8 +21,7 @@
     "excerpt": {
       "type": "text",
       "required": true,
-      "maxLength": 160,
-      "minLength": 50
+      "maxLength": 160
     },
     "date": {
       "type": "date",
