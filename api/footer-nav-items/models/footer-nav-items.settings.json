@@ -9,11 +9,10 @@
     "timestamps": true
   },
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "slug": {
-      "type": "string"
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.nav-items"
     }
   }
 }
