@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_nav_items",
+  "info": {
+    "name": "FooterNavItems"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_nav_items",
+  "info": {
+    "name": "HeaderNavItems"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}
