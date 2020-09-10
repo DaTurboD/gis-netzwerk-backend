@@ -56,6 +56,13 @@
     },
     "applicationLink": {
       "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "published",
+        "draft"
+      ]
     }
   }
 }
