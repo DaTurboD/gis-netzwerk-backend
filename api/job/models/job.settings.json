@@ -66,11 +66,7 @@
       "default": "draft"
     },
     "premium": {
-      "type": "enumeration",
-      "enum": [
-        "yes",
-        "no"
-      ]
+      "type": "boolean"
     }
   }
 }
