@@ -21,9 +21,6 @@
     "siteDescription": {
       "type": "string"
     },
-    "siteLogo": {
-      "type": "string"
-    },
     "apiUrl": {
       "type": "string"
     },
@@ -58,6 +55,17 @@
       "type": "component",
       "repeatable": true,
       "component": "socials.author-socials"
+    },
+    "siteLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
