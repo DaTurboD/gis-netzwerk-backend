@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "configs",
+  "info": {
+    "name": "Config"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "siteTitle": {
+      "type": "string"
+    },
+    "siteTitleShort": {
+      "type": "string"
+    },
+    "siteTitleAlt": {
+      "type": "string"
+    },
+    "siteDescription": {
+      "type": "string"
+    },
+    "siteLogo": {
+      "type": "string"
+    },
+    "apiUrl": {
+      "type": "string"
+    },
+    "homePath": {
+      "type": "string"
+    },
+    "pathPrefix": {
+      "type": "string"
+    },
+    "siteRss": {
+      "type": "string"
+    },
+    "dateFormat": {
+      "type": "string"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "defaultLang": {
+      "type": "string"
+    },
+    "themeColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "loading": {
+      "type": "string"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "socials.author-socials"
+    }
+  }
+}
