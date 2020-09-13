@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/subscribers",
-      "handler": "subscribers.find",
+      "handler": "subscriber.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/subscribers/count",
-      "handler": "subscribers.count",
+      "handler": "subscriber.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/subscribers/:id",
-      "handler": "subscribers.findOne",
+      "handler": "subscriber.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/subscribers",
-      "handler": "subscribers.create",
+      "handler": "subscriber.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/subscribers/:id",
-      "handler": "subscribers.update",
+      "handler": "subscriber.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/subscribers/:id",
-      "handler": "subscribers.delete",
+      "handler": "subscriber.delete",
       "config": {
         "policies": []
       }

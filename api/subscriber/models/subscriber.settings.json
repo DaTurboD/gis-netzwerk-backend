@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "newsletters",
+  "collectionName": "subscribers",
   "info": {
-    "name": "Newsletter"
+    "name": "Subscriber"
   },
   "options": {
     "increments": true,
@@ -10,7 +10,10 @@
   },
   "attributes": {
     "email": {
-      "type": "string"
+      "type": "email",
+      "unique": true,
+      "required": true,
+      "private": true
     }
   }
 }

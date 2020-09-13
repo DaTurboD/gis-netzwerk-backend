@@ -71,6 +71,9 @@
       "type": "component",
       "repeatable": true,
       "component": "socials.author-socials"
+    },
+    "subscriber": {
+      "type": "boolean"
     }
   }
 }
