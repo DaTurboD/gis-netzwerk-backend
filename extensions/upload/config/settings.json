@@ -34,7 +34,7 @@
           "isGenerateWebp": true,
         },
         {
-          "name: "medium",
+          "name": "medium",
           "resizeOptions": {
             "width": 550,
             "height": 200,
