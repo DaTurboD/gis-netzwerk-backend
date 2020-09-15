@@ -19,7 +19,7 @@
       "minLength": 200
     },
     "excerpt": {
-      "type": "richtext",
+      "type": "text",
       "required": true
     },
     "date": {
