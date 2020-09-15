@@ -21,7 +21,7 @@
           "resizeOptions": {
             "width": 50,
             "height": 50,
-            "fit": contain,
+            "fit": "contain",
           },
           "isGenerateWebp": true,
         },
