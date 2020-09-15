@@ -18,4 +18,8 @@ module.exports = {
   // '0 1 * * 1': () => {
   //
   // }
+  // Generate the sitemap every 12 hours
+  '0 */24 * * *': () => {
+      strapi.plugins.sitemap.services.sitemap.createSitemap();
+  },
 };
