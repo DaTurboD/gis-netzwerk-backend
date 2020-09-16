@@ -1,7 +1,7 @@
 {
-  "name": "GIS-Netzwerk-Strapi",
+  "name": "GIS-Netzwerk-Backend",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Strapi (CMS) for GIS-Netzwerk",
   "scripts": {
     "dev": "strapi develop",
