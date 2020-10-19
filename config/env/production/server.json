@@ -1,7 +1,7 @@
 {
   "host": "0.0.0.0",
   "port": "1337",
-  "url": "https://api.gis-netzwerk.com",
+  "url": "https://api.mxd.codes",
   "admin": {
     "auth": {
       "secret": "env('ADMIN_JWT_SECRET', '2dff7551645e8e95502d8f6a7a4332a1')"
@@ -10,7 +10,7 @@
   "proxy": {
     "enabled": true,
     "ssl": true,
-    "host": "api.gis-netzwerk.com",
+    "host": "api.mxd.codes",
     "port": "1337"
   }
 }

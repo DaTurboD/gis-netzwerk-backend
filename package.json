@@ -1,8 +1,8 @@
 {
-  "name": "GIS-Netzwerk-Backend",
+  "name": "mxd-codes-backend",
   "private": true,
   "version": "0.3.0",
-  "description": "Strapi (CMS) for GIS-Netzwerk",
+  "description": "Strapi (CMS) for mxd.codes",
   "scripts": {
     "dev": "strapi develop",
     "start": "strapi start",
