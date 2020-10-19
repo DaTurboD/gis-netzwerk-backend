@@ -1,4 +1,4 @@
-# CMS for GIS-Netzwerk
+# CMS for mxd.codes
 
 Strapi with PostgresSQL hosted on a virtual private Server.
 
