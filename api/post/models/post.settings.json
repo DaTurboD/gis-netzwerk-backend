@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "posts",
   "info": {
-    "name": "Post"
+    "name": "Post",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
   "attributes": {
     "title": {
@@ -53,12 +55,21 @@
       ]
     },
     "tags": {
-      "via": "posts",
-      "collection": "tag"
+      "collection": "tag",
+      "via": "posts"
     },
     "user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "usefull": {
+      "type": "integer"
+    },
+    "starred": {
+      "type": "integer"
+    },
+    "heart": {
+      "type": "integer"
     }
   }
 }
