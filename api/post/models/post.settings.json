@@ -62,7 +62,7 @@
       "plugin": "users-permissions",
       "model": "user"
     },
-    "usefull": {
+    "useful": {
       "type": "integer"
     },
     "starred": {
