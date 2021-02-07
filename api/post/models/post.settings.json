@@ -63,13 +63,21 @@
       "model": "user"
     },
     "useful": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "starred": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "heart": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
+    },
+    "comments": {
+      "plugin": "comments",
+      "collection": "comment",
+      "via": "related"
     }
   }
 }
