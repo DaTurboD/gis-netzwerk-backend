@@ -60,8 +60,8 @@
       "via": "post"
     },
     "reaction": {
-      "model": "reactions",
-      "via": "post"
+      "via": "post",
+      "model": "reactions"
     },
     "dateUpdated": {
       "type": "date"

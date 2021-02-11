@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "postId": {
@@ -19,8 +19,8 @@
       "default": 0
     },
     "post": {
-      "via": "reaction",
-      "model": "post"
+      "model": "post",
+      "via": "reaction"
     },
     "reaction2_count": {
       "type": "integer",
