@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "reactions",
   "info": {
-    "name": "Reactions"
+    "name": "Reactions",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,8 +14,25 @@
     "postId": {
       "type": "integer"
     },
-    "count": {
-      "type": "integer"
+    "reaction1_count": {
+      "type": "integer",
+      "default": 0
+    },
+    "post": {
+      "via": "reaction",
+      "model": "post"
+    },
+    "reaction2_count": {
+      "type": "integer",
+      "default": 0
+    },
+    "reaction3_count": {
+      "type": "integer",
+      "default": 0
+    },
+    "reaction4_count": {
+      "type": "integer",
+      "default": 0
     }
   }
 }

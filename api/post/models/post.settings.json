@@ -33,14 +33,6 @@
       "targetField": "title",
       "required": true
     },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "published",
-        "draft"
-      ],
-      "default": "draft"
-    },
     "coverImage": {
       "type": "component",
       "repeatable": false,
@@ -62,22 +54,17 @@
       "plugin": "users-permissions",
       "model": "user"
     },
-    "useful": {
-      "type": "integer",
-      "default": 0
-    },
-    "starred": {
-      "type": "integer",
-      "default": 0
-    },
-    "heart": {
-      "type": "integer",
-      "default": 0
-    },
     "comments": {
       "plugin": "comments",
       "collection": "comment",
-      "via": "related"
+      "via": "post"
+    },
+    "reaction": {
+      "model": "reactions",
+      "via": "post"
+    },
+    "dateUpdated": {
+      "type": "date"
     }
   }
 }
