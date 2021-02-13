@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogrolls",
+  "info": {
+    "name": "Blogroll"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "websiteUrl": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "profilePictureUrl": {
+      "type": "string"
+    }
+  }
+}

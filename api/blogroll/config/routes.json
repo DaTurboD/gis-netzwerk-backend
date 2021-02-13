@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/blogrolls",
+      "handler": "blogroll.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blogrolls/count",
+      "handler": "blogroll.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blogrolls/:id",
+      "handler": "blogroll.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/blogrolls",
+      "handler": "blogroll.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/blogrolls/:id",
+      "handler": "blogroll.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/blogrolls/:id",
+      "handler": "blogroll.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
