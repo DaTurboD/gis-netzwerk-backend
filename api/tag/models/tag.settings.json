@@ -37,6 +37,14 @@
     },
     "backgroundColor": {
       "type": "string"
+    },
+    "tag": {
+      "via": "tags",
+      "model": "links"
+    },
+    "note": {
+      "via": "tags",
+      "model": "notes"
     }
   }
 }

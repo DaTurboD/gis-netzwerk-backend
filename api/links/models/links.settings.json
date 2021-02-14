@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "blogrolls",
+  "collectionName": "links",
   "info": {
-    "name": "Blogroll",
-    "description": ""
+    "name": "Links"
   },
   "options": {
     "increments": true,
@@ -11,20 +10,21 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "websiteUrl": {
+    "link": {
       "type": "string"
     },
-    "bio": {
+    "date": {
+      "type": "date"
+    },
+    "description": {
       "type": "text"
     },
-    "profilePictureUrl": {
-      "type": "string"
-    },
-    "feedUrl": {
-      "type": "string"
+    "tags": {
+      "collection": "tag",
+      "via": "tag"
     }
   }
 }

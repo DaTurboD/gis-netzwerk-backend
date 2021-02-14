@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "notes",
   "info": {
-    "name": "Notes"
+    "name": "Notes",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,6 +16,17 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "note"
     }
   }
 }
