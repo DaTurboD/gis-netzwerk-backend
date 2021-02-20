@@ -54,11 +54,6 @@
       "plugin": "users-permissions",
       "model": "user"
     },
-    "comments": {
-      "plugin": "comments",
-      "collection": "comment",
-      "via": "post"
-    },
     "reaction": {
       "via": "post",
       "model": "reactions"
