@@ -27,6 +27,49 @@
     "tags": {
       "collection": "tag",
       "via": "note"
+    },
+    "publishOnTwitter": {
+      "type": "boolean"
+    },
+    "publishOnInstagram": {
+      "type": "boolean"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "inReplyTo": {
+      "type": "boolean"
+    },
+    "likeOf": {
+      "type": "boolean"
+    },
+    "repostOf": {
+      "type": "boolean"
+    },
+    "quoteOf": {
+      "type": "boolean"
+    },
+    "ofUrl": {
+      "type": "string"
     }
   }
 }
