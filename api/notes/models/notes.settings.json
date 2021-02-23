@@ -70,6 +70,12 @@
     },
     "ofUrl": {
       "type": "string"
+    },
+    "syndLinkInstagram": {
+      "type": "string"
+    },
+    "syndLinkTwitter": {
+      "type": "string"
     }
   }
 }
