@@ -19,8 +19,8 @@
       "default": 0
     },
     "post": {
-      "model": "post",
-      "via": "reaction"
+      "via": "reaction",
+      "model": "post"
     },
     "reaction2_count": {
       "type": "integer",

@@ -55,11 +55,16 @@
       "model": "user"
     },
     "reaction": {
-      "via": "post",
-      "model": "reactions"
+      "model": "reactions",
+      "via": "post"
     },
     "dateUpdated": {
       "type": "date"
+    },
+    "syndicationLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.nav-items"
     }
   }
 }
