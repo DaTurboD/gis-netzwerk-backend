@@ -60,6 +60,17 @@
       "type": "component",
       "repeatable": true,
       "component": "links.nav-items"
+    },
+    "coverMedium": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
