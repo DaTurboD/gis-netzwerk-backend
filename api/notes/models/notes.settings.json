@@ -76,6 +76,16 @@
     },
     "syndLinkTwitter": {
       "type": "string"
+    },
+    "syndLinkReddit": {
+      "type": "string"
+    },
+    "mentionOf": {
+      "type": "boolean",
+      "default": false
+    },
+    "publishOnReddit": {
+      "type": "boolean"
     }
   }
 }
