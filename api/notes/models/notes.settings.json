@@ -34,28 +34,6 @@
     "publishOnInstagram": {
       "type": "boolean"
     },
-    "photo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "video": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "inReplyTo": {
       "type": "boolean"
     },
@@ -71,21 +49,17 @@
     "ofUrl": {
       "type": "string"
     },
-    "syndLinkInstagram": {
-      "type": "string"
-    },
-    "syndLinkTwitter": {
-      "type": "string"
-    },
-    "syndLinkReddit": {
-      "type": "string"
-    },
     "mentionOf": {
       "type": "boolean",
       "default": false
     },
     "publishOnReddit": {
       "type": "boolean"
+    },
+    "syndicationLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.nav-items"
     }
   }
 }
