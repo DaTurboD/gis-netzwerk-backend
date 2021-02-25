@@ -15,7 +15,6 @@ module.exports = {
 
     lifecycles: {
         afterCreate(result) {
-            sendWebmention(result)
         },
     }
 };
