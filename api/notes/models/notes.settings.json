@@ -34,24 +34,8 @@
     "publishOnInstagram": {
       "type": "boolean"
     },
-    "inReplyTo": {
-      "type": "boolean"
-    },
-    "likeOf": {
-      "type": "boolean"
-    },
-    "repostOf": {
-      "type": "boolean"
-    },
-    "quoteOf": {
-      "type": "boolean"
-    },
     "ofUrl": {
       "type": "string"
-    },
-    "mentionOf": {
-      "type": "boolean",
-      "default": false
     },
     "publishOnReddit": {
       "type": "boolean"
@@ -71,6 +55,17 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Note",
+        "Reply",
+        "Like",
+        "Repost",
+        "Checkin",
+        "Event"
+      ]
     }
   }
 }
