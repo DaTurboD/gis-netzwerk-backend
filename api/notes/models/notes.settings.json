@@ -46,7 +46,7 @@
       "component": "links.nav-items"
     },
     "coverMedium": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "files",
