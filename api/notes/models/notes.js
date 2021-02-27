@@ -14,7 +14,7 @@ async function getWeatherData(data) {
     return {
         cords: cords,
         temp: weather.data.main.temp,
-        weather: weather.data.weather[0].description
+        weather: weather.data.weather[0].main
     }
 }
 
