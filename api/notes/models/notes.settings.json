@@ -76,7 +76,13 @@
     "temperature": {
       "type": "decimal"
     },
-    "weather": {
+    "weather_main": {
+      "type": "string"
+    },
+    "weather_description": {
+      "type": "string"
+    },
+    "weather_icon": {
       "type": "string"
     }
   }
