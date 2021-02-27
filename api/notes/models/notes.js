@@ -27,6 +27,7 @@ module.exports = {
 
             result.temperature = weatherData.temp
             result.weather = weatherData.weather
+            return
         },
     }
 };
