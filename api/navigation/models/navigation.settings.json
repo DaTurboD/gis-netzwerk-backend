@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "header_navs",
+  "collectionName": "navigations",
   "info": {
-    "name": "HeaderNav"
+    "name": "Navigation"
   },
   "options": {
     "increments": true,
@@ -10,7 +10,12 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "links": {
+    "headerNavigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.nav-items"
+    },
+    "footerNavigation": {
       "type": "component",
       "repeatable": true,
       "component": "links.nav-items"

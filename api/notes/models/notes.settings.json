@@ -66,6 +66,18 @@
         "Checkin",
         "Event"
       ]
+    },
+    "lat": {
+      "type": "string"
+    },
+    "lon": {
+      "type": "string"
+    },
+    "temperature": {
+      "type": "decimal"
+    },
+    "weather": {
+      "type": "string"
     }
   }
 }
