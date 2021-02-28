@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/now",
+      "handler": "now.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/now",
+      "handler": "now.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/now",
+      "handler": "now.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
