@@ -6,7 +6,4 @@
  */
 
 module.exports = {
-    async ownTracks(ctx) {
-        console.log(ctx.request.body);
-    },
 };
