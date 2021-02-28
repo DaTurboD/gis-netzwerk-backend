@@ -5,9 +5,4 @@
  * to customize this controller
  */
 
-module.exports = {
-    async ownTracks(ctx) {
-        console.log(ctx.request.body);
-        ctx.send('temporary successfull');
-      },
-};
+module.exports = {};
