@@ -35,9 +35,6 @@
     "tid": {
       "type": "string"
     },
-    "tst": {
-      "type": "datetime"
-    },
     "vel": {
       "type": "integer"
     },
