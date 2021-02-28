@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "locations",
   "info": {
-    "name": "Locations"
+    "name": "Locations",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -35,7 +36,7 @@
       "type": "string"
     },
     "tst": {
-      "type": "time"
+      "type": "datetime"
     },
     "vel": {
       "type": "integer"
