@@ -21,10 +21,10 @@
       "type": "integer"
     },
     "lat": {
-      "type": "decimal"
+      "type": "float"
     },
     "lon": {
-      "type": "decimal"
+      "type": "float"
     },
     "rad": {
       "type": "integer"
