@@ -7,9 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "timestamp": {
-      "type": "date"
-    },
     "altitude": {
       "type": "integer"
     },
@@ -53,6 +50,9 @@
       "type": "string"
     },
     "wifi": {
+      "type": "string"
+    },
+    "timestamp": {
       "type": "string"
     }
   }

@@ -12,14 +12,10 @@
   },
   "attributes": {
     "locations": {
-      "type": "component",
-      "repeatable": false,
-      "component": "locations.locations"
+      "type": "json"
     },
     "trip": {
-      "type": "component",
-      "repeatable": false,
-      "component": "locations.trip"
+      "type": "json"
     }
   }
 }
