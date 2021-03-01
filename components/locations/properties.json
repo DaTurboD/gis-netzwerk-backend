@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_locations_properties",
+  "info": {
+    "name": "properties",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "timestamp": {
+      "type": "datetime"
+    },
+    "altitude": {
+      "type": "integer"
+    },
+    "speed": {
+      "type": "integer"
+    },
+    "horizontal_accuracy": {
+      "type": "integer"
+    },
+    "vertical_accuracy": {
+      "type": "integer"
+    },
+    "motion": {
+      "type": "json"
+    },
+    "pauses": {
+      "type": "boolean"
+    },
+    "activity": {
+      "type": "string"
+    },
+    "desired_accuracy": {
+      "type": "integer"
+    },
+    "deferred": {
+      "type": "integer"
+    },
+    "significant_change": {
+      "type": "string"
+    },
+    "locations_in_payload": {
+      "type": "integer"
+    },
+    "battery_state": {
+      "type": "string"
+    },
+    "battery_level": {
+      "type": "decimal"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "wifi": {
+      "type": "string"
+    }
+  }
+}

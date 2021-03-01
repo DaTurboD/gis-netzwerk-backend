@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_locations_locations",
+  "info": {
+    "name": "locations",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "geometry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "locations.geometry"
+    },
+    "properties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "locations.properties"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

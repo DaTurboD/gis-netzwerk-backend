@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locationstests",
+  "info": {
+    "name": "locationstest"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "locations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "locations.locations"
+    },
+    "trip": {
+      "type": "component",
+      "repeatable": false,
+      "component": "locations.trip"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_locations_trips",
+  "info": {
+    "name": "trip",
+    "icon": "car-side"
+  },
+  "options": {},
+  "attributes": {
+    "distance": {
+      "type": "integer"
+    },
+    "mode": {
+      "type": "string"
+    },
+    "current_location": {
+      "type": "json"
+    },
+    "start_location": {
+      "type": "json"
+    },
+    "start": {
+      "type": "datetime"
+    }
+  }
+}

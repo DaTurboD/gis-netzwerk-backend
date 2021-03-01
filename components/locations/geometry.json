@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_geometry_geometries",
+  "info": {
+    "name": "geometry",
+    "icon": "map-marker-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "coordinates": {
+      "type": "json"
+    }
+  }
+}
