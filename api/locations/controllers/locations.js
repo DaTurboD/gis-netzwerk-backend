@@ -16,8 +16,6 @@ module.exports = {
           battery_level: feature.properties.battery_level,
         })
     ))
-    for (let i of features) {
-         return i
-    }
+    return
   },
 };
