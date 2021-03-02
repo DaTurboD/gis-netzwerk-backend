@@ -14,6 +14,7 @@ module.exports = {
         battery_state: ctx.request.body.properties,
         timestamp: ctx.request.body.properties,
     }
+    console.log(ctx.request.body.locations)
     console.log(feature)
     return {
       feature
