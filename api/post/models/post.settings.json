@@ -54,10 +54,6 @@
       "plugin": "users-permissions",
       "model": "user"
     },
-    "reaction": {
-      "model": "reactions",
-      "via": "post"
-    },
     "dateUpdated": {
       "type": "date"
     },

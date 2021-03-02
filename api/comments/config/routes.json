@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/locationstests",
-      "handler": "locationstest.find",
+      "path": "/comments",
+      "handler": "comments.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/locationstests/count",
-      "handler": "locationstest.count",
+      "path": "/comments/count",
+      "handler": "comments.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/locationstests/:id",
-      "handler": "locationstest.findOne",
+      "path": "/comments/:id",
+      "handler": "comments.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/locationstests",
-      "handler": "locationstest.create",
+      "path": "/comments",
+      "handler": "comments.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/locationstests/:id",
-      "handler": "locationstest.update",
+      "path": "/comments/:id",
+      "handler": "comments.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/locationstests/:id",
-      "handler": "locationstest.delete",
+      "path": "/comments/:id",
+      "handler": "comments.delete",
       "config": {
         "policies": []
       }
