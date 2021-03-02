@@ -7,6 +7,15 @@
 
 module.exports = {
   async create(ctx) {
-    console.log(ctx.request.body.locations)
+    const feature = {
+        lat: ctx.request.body.locations.geometry.coordinates[0],
+        lon: ctx.request.body.locations.geometry.coordinates[1],
+        battery_level: ctx.request.body.properties.battery_level,
+        battery_state: ctx.request.body.properties.battery_state,
+        timestamp: ctx.request.body.properties.timestamp,
+    }
+    console.log(feature)
+    return {
+      feature
   },
 };
