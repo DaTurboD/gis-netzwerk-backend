@@ -6,8 +6,8 @@
  */
 
 module.exports = {
-  async index(ctx) {
-    console.log("hello");
-    return 'Hello World!';
+  async create(ctx) {
+    console.log(ctx);
+    console.log(ctx.response.body)
   },
 };
