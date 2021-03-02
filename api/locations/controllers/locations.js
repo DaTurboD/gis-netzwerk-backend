@@ -6,7 +6,4 @@
  */
 
 module.exports = {
-  locations: async (ctx) => {
-    console.log(ctx.request.body);
-  }
 };
