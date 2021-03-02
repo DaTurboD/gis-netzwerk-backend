@@ -17,7 +17,6 @@ module.exports = {
         })
     ))
     for (let i of features) {
-         console.log(i),
          return i
     }
   },
