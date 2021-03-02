@@ -5,4 +5,10 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+  async (ctx) => {
+    // `ctx.request` doesn't contain any data sent in the POST request,
+    // see screenshot.
+    console.log(ctx.request.body);
+  }
+};
