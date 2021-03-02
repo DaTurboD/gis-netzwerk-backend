@@ -8,8 +8,8 @@
 module.exports = {
   async create(ctx) {
     const feature = {
-        lat: ctx.request.body.locations.geometry.coordinates,
-        lon: ctx.request.body.locations.geometry.coordinates,
+        lat: ctx.request.body.locations.geometry,
+        lon: ctx.request.body.locations.geometry,
         battery_level: ctx.request.body.properties.battery_level,
         battery_state: ctx.request.body.properties.battery_state,
         timestamp: ctx.request.body.properties.timestamp,
