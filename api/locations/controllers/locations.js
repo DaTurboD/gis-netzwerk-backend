@@ -7,10 +7,9 @@
 
 module.exports = {
   async create(ctx) {
-    /*ctx.request.body.locations.map.map((feature, i) => (
-      geometry = feature.geometry.coordinates
-      properties = feature.properties
-      
-    ))*/
+    ctx.request.body.locations.map.map((feature, i) => (
+      console.log(ctx.request.body)
+   
+    ))
   },
 };
