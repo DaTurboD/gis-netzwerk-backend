@@ -7,9 +7,15 @@
 
 module.exports = {
   async create(ctx) {
+    const features = []
     ctx.request.body.locations.map((feature, i) => (
-      console.log(feature)
-   
+        features.push({
+          id: i,
+          lat: feature.geometry.coordinates[0],
+          lon: feature.geometry.coordinates[1],
+          battery_level: feature.properties.battery_level,
+        })
     ))
+    return features
   },
 };
