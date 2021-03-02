@@ -13,6 +13,9 @@
   "attributes": {
     "locations": {
       "type": "json"
+    },
+    "trip": {
+      "type": "json"
     }
   }
 }
