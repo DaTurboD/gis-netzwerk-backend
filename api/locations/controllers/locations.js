@@ -16,8 +16,5 @@ module.exports = {
           battery_level: feature.properties.battery_level,
         })
     ))
-    features.map((feature, i) => (
-      return feature
-    ))  
   },
 };
