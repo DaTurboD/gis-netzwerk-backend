@@ -16,7 +16,8 @@ module.exports = {
           battery_level: feature.properties.battery_level,
         })
     ))
-    console.log(features)
-      
+    features.map((feature, i) => (
+      return feature
+    ))  
   },
 };
