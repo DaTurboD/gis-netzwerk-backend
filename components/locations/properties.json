@@ -28,15 +28,6 @@
     "activity": {
       "type": "string"
     },
-    "desired_accuracy": {
-      "type": "integer"
-    },
-    "deferred": {
-      "type": "integer"
-    },
-    "significant_change": {
-      "type": "string"
-    },
     "locations_in_payload": {
       "type": "integer"
     },
@@ -46,14 +37,23 @@
     "battery_level": {
       "type": "decimal"
     },
-    "device_id": {
-      "type": "string"
-    },
     "wifi": {
       "type": "string"
     },
-    "timestamp": {
+    "desired_accuracy": {
       "type": "string"
+    },
+    "significant_change": {
+      "type": "string"
+    },
+    "deferred": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "datetime"
     }
   }
 }
