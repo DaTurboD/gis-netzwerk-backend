@@ -6,9 +6,7 @@
  */
 
 module.exports = {
-  hook: async (ctx) => {
-    // `ctx.request` doesn't contain any data sent in the POST request,
-    // see screenshot.
+  locations: async (ctx) => {
     console.log(ctx.request.body);
   }
 };
