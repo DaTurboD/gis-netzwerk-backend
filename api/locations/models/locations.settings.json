@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "name": "locations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lat": {
+      "type": "float"
+    },
+    "lon": {
+      "type": "float"
+    },
+    "acc": {
+      "type": "integer"
+    },
+    "alt": {
+      "type": "integer"
+    },
+    "batt": {
+      "type": "integer"
+    },
+    "bs": {
+      "type": "integer"
+    },
+    "cog": {
+      "type": "decimal"
+    },
+    "rad": {
+      "type": "integer"
+    },
+    "t": {
+      "type": "string"
+    },
+    "tid": {
+      "type": "string"
+    },
+    "tst": {
+      "type": "string"
+    },
+    "vac": {
+      "type": "integer"
+    },
+    "vel": {
+      "type": "integer"
+    },
+    "p": {
+      "type": "decimal"
+    },
+    "conn": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "inregions": {
+      "type": "string"
+    },
+    "ssid": {
+      "type": "string"
+    },
+    "bssid": {
+      "type": "string"
+    }
+  }
+}
