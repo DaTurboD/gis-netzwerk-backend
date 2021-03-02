@@ -7,7 +7,6 @@
 
 module.exports = {
   async create(ctx) {
-    console.log(ctx);
-    console.log(ctx.response.body)
+    console.log(ctx.request.body);
   },
 };
