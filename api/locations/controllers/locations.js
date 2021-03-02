@@ -16,6 +16,6 @@ module.exports = {
           battery_level: feature.properties.battery_level,
         })
     ))
-    return features
+    console.log(features)
   },
 };
