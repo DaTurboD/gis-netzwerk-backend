@@ -11,11 +11,62 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "locations": {
-      "type": "json"
+    "acc": {
+      "type": "integer"
     },
-    "trip": {
-      "type": "json"
+    "alt": {
+      "type": "integer"
+    },
+    "batt": {
+      "type": "integer"
+    },
+    "bs": {
+      "type": "integer"
+    },
+    "cog": {
+      "type": "decimal"
+    },
+    "lat": {
+      "type": "float"
+    },
+    "lon": {
+      "type": "float"
+    },
+    "rad": {
+      "type": "integer"
+    },
+    "t": {
+      "type": "string"
+    },
+    "tid": {
+      "type": "string"
+    },
+    "tst": {
+      "type": "string"
+    },
+    "vac": {
+      "type": "integer"
+    },
+    "vel": {
+      "type": "integer"
+    },
+    "p": {
+      "type": "decimal"
+    },
+    "conn": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "inregions": {
+      "type": "string"
+    },
+    "ssid": {
+      "type": "string"
+    },
+    "bssid": {
+      "type": "string"
     }
   }
 }
