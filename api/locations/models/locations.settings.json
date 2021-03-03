@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "lat": {
@@ -56,9 +56,6 @@
     "topic": {
       "type": "string"
     },
-    "inregions": {
-      "type": "string"
-    },
     "ssid": {
       "type": "string"
     },
@@ -67,6 +64,9 @@
     },
     "tst": {
       "type": "integer"
+    },
+    "inregions": {
+      "type": "json"
     }
   }
 }
