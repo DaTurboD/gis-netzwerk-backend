@@ -42,6 +42,9 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "yield": {
+      "type": "integer"
     }
   }
 }
