@@ -29,7 +29,7 @@
       "type": "string"
     },
     "coverImage": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
