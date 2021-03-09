@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "tags",
   "info": {
-    "name": "Tag"
+    "name": "Tag",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -22,12 +24,12 @@
     },
     "color": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": false,
+      "unique": false
     },
     "posts": {
-      "via": "tags",
       "collection": "post",
+      "via": "tags",
       "dominant": true
     },
     "slug": {
@@ -36,15 +38,17 @@
       "required": true
     },
     "backgroundColor": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": false
     },
     "tag": {
-      "via": "tags",
-      "model": "links"
+      "model": "links",
+      "via": "tags"
     },
     "note": {
-      "via": "tags",
-      "model": "notes"
+      "model": "notes",
+      "via": "tags"
     }
   }
 }

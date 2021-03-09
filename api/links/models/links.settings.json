@@ -23,8 +23,8 @@
       "type": "text"
     },
     "tags": {
-      "collection": "tag",
-      "via": "tag"
+      "via": "tag",
+      "collection": "tag"
     }
   }
 }

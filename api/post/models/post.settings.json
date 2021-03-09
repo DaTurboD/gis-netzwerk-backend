@@ -47,8 +47,8 @@
       ]
     },
     "tags": {
-      "collection": "tag",
-      "via": "posts"
+      "via": "posts",
+      "collection": "tag"
     },
     "user": {
       "plugin": "users-permissions",
