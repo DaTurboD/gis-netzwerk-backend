@@ -12,7 +12,7 @@
   },
   "attributes": {
     "date": {
-      "type": "date"
+      "type": "datetime"
     },
     "content": {
       "type": "richtext"
@@ -25,8 +25,8 @@
       "targetField": "title"
     },
     "tags": {
-      "via": "note",
-      "collection": "tag"
+      "collection": "tag",
+      "via": "note"
     },
     "publishOnTwitter": {
       "type": "boolean"

@@ -47,8 +47,8 @@
       "via": "tags"
     },
     "note": {
-      "model": "notes",
-      "via": "tags"
+      "via": "tags",
+      "model": "notes"
     }
   }
 }
