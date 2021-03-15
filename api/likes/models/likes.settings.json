@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "likes",
+  "info": {
+    "name": "Likes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "count": {
+      "type": "integer"
+    }
+  }
+}

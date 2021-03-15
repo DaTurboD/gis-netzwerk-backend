@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/likes",
+      "handler": "likes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/likes",
+      "handler": "likes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/likes",
+      "handler": "likes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
