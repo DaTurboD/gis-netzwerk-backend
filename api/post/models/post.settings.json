@@ -25,7 +25,7 @@
       "required": true
     },
     "date": {
-      "type": "date",
+      "type": "datetime",
       "required": true
     },
     "slug": {
@@ -47,15 +47,15 @@
       ]
     },
     "tags": {
-      "via": "posts",
-      "collection": "tag"
+      "collection": "tag",
+      "via": "posts"
     },
     "user": {
       "plugin": "users-permissions",
       "model": "user"
     },
     "dateUpdated": {
-      "type": "date"
+      "type": "datetime"
     },
     "syndicationLinks": {
       "type": "component",

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "links",
   "info": {
-    "name": "Links"
+    "name": "Links",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,14 +18,14 @@
       "type": "string"
     },
     "date": {
-      "type": "date"
+      "type": "datetime"
     },
     "description": {
       "type": "text"
     },
     "tags": {
-      "via": "tag",
-      "collection": "tag"
+      "collection": "tag",
+      "via": "tag"
     }
   }
 }
