@@ -11,6 +11,9 @@
       "type": "component",
       "repeatable": true,
       "component": "cv.skillname"
+    },
+    "name": {
+      "type": "string"
     }
   }
 }
