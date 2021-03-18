@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cv_interests",
+  "info": {
+    "name": "interests",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

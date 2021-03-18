@@ -34,6 +34,11 @@
       "type": "component",
       "repeatable": true,
       "component": "cv.timeline"
+    },
+    "interests": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.interests"
     }
   }
 }
