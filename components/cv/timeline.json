@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_cv_timelines",
+  "info": {
+    "name": "timeline",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "longDescription": {
+      "type": "richtext"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

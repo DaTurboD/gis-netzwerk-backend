@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cv_educations",
+  "info": {
+    "name": "Education",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

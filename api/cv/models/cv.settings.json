@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "cvs",
+  "info": {
+    "name": "CV",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "smallBio": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.skills"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.education"
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.timeline"
+    }
+  }
+}

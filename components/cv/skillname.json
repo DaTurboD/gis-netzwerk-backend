@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_cv_skillnames",
+  "info": {
+    "name": "skillname",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

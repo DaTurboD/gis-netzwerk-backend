@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cv_skills",
+  "info": {
+    "name": "skills",
+    "icon": "backward",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "skillName": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.skillname"
+    }
+  }
+}
