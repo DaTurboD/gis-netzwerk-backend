@@ -1,11 +1,11 @@
 const axios = require('axios');
 
 module.exports = async () => {
-  const { data } = await axios.get('endpoint');
+  async function getCurrentLocation() {
+    const locations = await axios.get(`https://api.mxd.codes/locations?_sort=id:desc`)
 
-  await strapi.query('locations').create({
-    date: new Date(),
-    lat: data.lat,
-    lon: data.on,
-  });
-};
+    return {
+        lat: locations.data[0].lat, 
+        lon: locations.data[0].lon
+    }
+}
