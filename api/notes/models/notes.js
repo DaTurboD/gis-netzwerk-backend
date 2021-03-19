@@ -6,18 +6,9 @@ const axios = require('axios');
  * to customize this model
  */
 
-async function getCurrentLocation() {
-    const locations = await axios.get(`https://api.mxd.codes/locations?_sort=id:desc`)
-
-    return {
-        lat: locations.data[0].lat, 
-        lon: locations.data[0].lon
-    }
-}
-
 async function getWeatherData(data) {
 
-    const currentLocation = await getCurrentLocation()
+    const currentLocation = strapi.config.functions.getLocation();
     const cords = data.lat == null && data.lon == null ? [currentLocation.lat, currentLocation.lon] : [data.lat, data.lon]
     const weather = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${cords[0]}&lon=${cords[1]}&appid=${process.env.OPENWEATHER_API_KEY}&units=metric`)
     return {
