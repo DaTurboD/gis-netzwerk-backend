@@ -8,7 +8,7 @@ const axios = require('axios');
 
 async function getWeatherData(data) {
 
-    const currentLocation = strapi.config.functions.getLocation();
+    const currentLocation = await strapi.config.functions.getLocation();
     const cords = data.lat == null && data.lon == null ? [currentLocation.lat, currentLocation.lon] : [data.lat, data.lon]
     const weather = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${cords[0]}&lon=${cords[1]}&appid=${process.env.OPENWEATHER_API_KEY}&units=metric`)
     return {
