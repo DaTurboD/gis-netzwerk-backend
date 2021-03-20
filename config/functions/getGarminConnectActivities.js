@@ -5,7 +5,7 @@ const GCClient = new GarminConnect();
 
 const getExistingActivities = async () => {
   const existingActivityIds = []
-  const activities = await axios.get(`http://localhost:1337/activities`)
+  const activities = await axios.get(`https://api.mxd.codes/activities`)
   
   activities.data.map((activity) => {
     existingActivityIds.push(activity.activityID)
@@ -37,8 +37,9 @@ const createEntry = async (activity) => {
 }
 
 module.exports = async () => {
-  await GCClient.login()
+  await GCClient.login(process.env.GARMIN_USERNAME, process.env.GARMIN_PWD)
   const activities = await GCClient.getActivities()
+  console.log(activities)
   const exisitingActivities = await getExistingActivities()
   activities ? activities.map((activity) => {
     const isExisting = exisitingActivities.includes(`${activity.activityId}`)
