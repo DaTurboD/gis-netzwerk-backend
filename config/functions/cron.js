@@ -1,25 +1,11 @@
 'use strict';
 
-/**
- * Cron config that gives you an opportunity
- * to run scheduled jobs.
- *
- * The cron format consists of:
- * [SECOND (optional)] [MINUTE] [HOUR] [DAY OF MONTH] [MONTH OF YEAR] [DAY OF WEEK]
- *
- * See more details here: https://strapi.io/documentation/v3.x/concepts/configurations.html#cron-tasks
- */
-
 module.exports = {
-  /**
-   * Simple example.
-   * Every monday at 1am.
-   */
-  // '0 1 * * 1': () => {
-  //
-  // }
-  // Generate the sitemap every 12 hours
-  '0 */24 * * *': () => {
-      strapi.plugins.sitemap.services.sitemap.createSitemap();
-  },
+// Add your own logic here (e.g. send a queue of email, create a database backup, etc.).
+
+    '0 0 20 * * *': () => {
+      strapi.config.functions.getGarminConnectActivities();
+
+    },
+
 };

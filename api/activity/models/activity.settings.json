@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activities",
+  "info": {
+    "name": "Activity",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "activityID": {
+      "type": "biginteger"
+    },
+    "activityName": {
+      "type": "string"
+    },
+    "activityType": {
+      "type": "json"
+    },
+    "distance": {
+      "type": "decimal"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "elapsedDuration": {
+      "type": "integer"
+    },
+    "movingDuration": {
+      "type": "integer"
+    },
+    "elevationGain": {
+      "type": "decimal"
+    },
+    "elevationLoss": {
+      "type": "decimal"
+    },
+    "averageSpeed": {
+      "type": "decimal"
+    },
+    "maxSpeed": {
+      "type": "decimal"
+    },
+    "startLatitude": {
+      "type": "float"
+    },
+    "startLongitude": {
+      "type": "float"
+    },
+    "endLatitude": {
+      "type": "float"
+    },
+    "endLongitude": {
+      "type": "float"
+    },
+    "details": {
+      "type": "json"
+    },
+    "temperature": {
+      "type": "decimal"
+    },
+    "weather_description": {
+      "type": "string"
+    },
+    "weather_icon": {
+      "type": "string"
+    },
+    "beginTimestamp": {
+      "type": "string"
+    },
+    "weather_main": {
+      "type": "string"
+    }
+  }
+}

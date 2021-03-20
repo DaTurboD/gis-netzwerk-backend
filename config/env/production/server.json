@@ -12,5 +12,8 @@
     "ssl": true,
     "host": "api.mxd.codes",
     "port": "1337"
+  },
+  "cron": {
+    "enabled": true
   }
 }
