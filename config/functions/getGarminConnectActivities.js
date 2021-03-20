@@ -26,6 +26,9 @@ const createEntry = async (activity) => {
     movingDuration: activity.movingDuration,
     elevationGain: activity.elevationGain,
     elevationLoss: activity.elevationLoss,
+    minElevation: activity.minElevation,
+    maxElevation: activity.minElevation,
+    sportTypeId: activity.sportTypeId,
     averageSpeed: activity.averageSpeed * 3.6,
     maxSpeed: activity.maxSpeed * 3.6,
     startLatitude: activity.startLatitude,
@@ -39,7 +42,6 @@ const createEntry = async (activity) => {
 module.exports = async () => {
   await GCClient.login(process.env.GARMIN_USERNAME, process.env.GARMIN_PWD)
   const activities = await GCClient.getActivities()
-  console.log(activities)
   const exisitingActivities = await getExistingActivities()
   activities ? activities.map((activity) => {
     const isExisting = exisitingActivities.includes(`${activity.activityId}`)

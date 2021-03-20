@@ -73,6 +73,15 @@
     },
     "weather_main": {
       "type": "string"
+    },
+    "minElevation": {
+      "type": "float"
+    },
+    "maxElevation": {
+      "type": "float"
+    },
+    "sportTypeId": {
+      "type": "integer"
     }
   }
 }
