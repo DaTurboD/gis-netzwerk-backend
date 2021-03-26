@@ -40,12 +40,12 @@ const createEntry = async (activity) => {
 }
 
 module.exports = async () => {
-  await GCClient.login(process.env.GARMIN_USERNAME, process.env.GARMIN_PWD)
-  const activities = await GCClient.getActivities()
+  /*await GCClient.login(process.env.GARMIN_USERNAME, process.env.GARMIN_PWD)
+  console.log(await GCClient.getActivities())
   const exisitingActivities = await getExistingActivities()
   activities ? activities.map((activity) => {
     const isExisting = exisitingActivities.includes(`${activity.activityId}`)
     isExisting ? console.log(activity.activityId + " already exists") : createEntry(activity)
   })
-  : console.log("no activities found")
+  : console.log("no activities found")*/
 }

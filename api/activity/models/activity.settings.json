@@ -24,13 +24,13 @@
       "type": "float"
     },
     "duration": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "elapsedDuration": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "movingDuration": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "elevationGain": {
       "type": "float"
