@@ -21,7 +21,7 @@
       "type": "json"
     },
     "distance": {
-      "type": "decimal"
+      "type": "float"
     },
     "duration": {
       "type": "integer"
@@ -33,16 +33,16 @@
       "type": "integer"
     },
     "elevationGain": {
-      "type": "decimal"
+      "type": "float"
     },
     "elevationLoss": {
-      "type": "decimal"
+      "type": "float"
     },
     "averageSpeed": {
-      "type": "decimal"
+      "type": "float"
     },
     "maxSpeed": {
-      "type": "decimal"
+      "type": "float"
     },
     "startLatitude": {
       "type": "float"
