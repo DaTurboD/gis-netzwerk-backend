@@ -12,7 +12,7 @@
   },
   "attributes": {
     "activityID": {
-      "type": "biginteger"
+      "type": "float"
     },
     "activityName": {
       "type": "string"
@@ -24,13 +24,13 @@
       "type": "float"
     },
     "duration": {
-      "type": "biginteger"
+      "type": "float"
     },
     "elapsedDuration": {
-      "type": "biginteger"
+      "type": "float"
     },
     "movingDuration": {
-      "type": "biginteger"
+      "type": "float"
     },
     "elevationGain": {
       "type": "float"
