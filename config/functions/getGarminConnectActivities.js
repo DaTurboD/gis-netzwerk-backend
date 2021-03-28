@@ -6,9 +6,8 @@ const GCClient = new GarminConnect();
 const getExistingActivities = async () => {
   const existingActivityIds = []
   const activities = await axios.get(`https://api.mxd.codes/activities`)
-  
   activities.data.map((activity) => {
-    existingActivityIds.push(activity.activityID)
+    existingActivityIds.push(activity.activityId)
   })
   return existingActivityIds
 }
@@ -16,7 +15,7 @@ const getExistingActivities = async () => {
 const createEntry = async (activity) => {
   const details = await GCClient.getActivity({ activityId: activity.activityId });
   await strapi.query('activity').create({
-    activityID: activity.activityId,
+    activityId: activity.activityId,
     activityName: activity.activityName,
     beginTimestamp: activity.beginTimestamp,
     activityType: activity.activityType,
@@ -29,7 +28,7 @@ const createEntry = async (activity) => {
     minElevation: activity.minElevation,
     maxElevation: activity.minElevation,
     sportTypeId: activity.sportTypeId,
-    averageSpeed: activity.averageSpeed * 3.6,
+    averageSpeed: (activity.distance/1000) / (activity.movingDuration/3600),
     maxSpeed: activity.maxSpeed * 3.6,
     startLatitude: activity.startLatitude,
     startLongitude: activity.startLongitude,
