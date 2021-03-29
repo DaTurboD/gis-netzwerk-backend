@@ -43,7 +43,7 @@ module.exports = async () => {
   const activities = await GCClient.getActivities()
   const exisitingActivities = await getExistingActivities()
   activities ? activities.map((activity) => {
-    const isExisting = exisitingActivities.includes(`${activity.activityId}`)
+    const isExisting = exisitingActivities.includes(activity.activityId)
     isExisting ? console.log(activity.activityId + " already exists") : createEntry(activity)
   })
   : console.log("no activities found")
