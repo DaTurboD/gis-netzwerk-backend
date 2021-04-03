@@ -82,6 +82,27 @@
     },
     "sportTypeId": {
       "type": "integer"
+    },
+    "grit": {
+      "type": "float"
+    },
+    "flow": {
+      "type": "float"
+    },
+    "jumpCount": {
+      "type": "integer"
+    },
+    "caloriesEstimated": {
+      "type": "float"
+    },
+    "caloriesConsumed": {
+      "type": "float"
+    },
+    "waterEstimated": {
+      "type": "float"
+    },
+    "waterConsumed": {
+      "type": "float"
     }
   }
 }

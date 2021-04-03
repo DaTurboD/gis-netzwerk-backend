@@ -34,6 +34,13 @@ const createEntry = async (activity) => {
     startLongitude: activity.startLongitude,
     endLatitude: activity.endLatitude,
     endLongitude: activity.endLongitude,
+    flow: activity.avgFlow,
+    grit: activity.grit,
+    jumpCount: activity.jumpCount,
+    caloriesEstimated: activity.caloriesEstimated,
+    caloriesConsumed: activity.caloriesConsumed,
+    waterEstimated: activity.waterEstimated,
+    waterConsumed:activity.waterConsumed,
     details: details
   })
 }
@@ -47,4 +54,5 @@ module.exports = async () => {
     isExisting ? console.log(activity.activityId + " already exists") : createEntry(activity)
   })
   : console.log("no activities found")
+  
 }
