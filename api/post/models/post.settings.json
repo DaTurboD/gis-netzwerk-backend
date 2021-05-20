@@ -63,10 +63,12 @@
       "component": "links.nav-items"
     },
     "positive_feedback_count": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "negative_feedback_count": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     }
   }
 }
