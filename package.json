@@ -17,17 +17,17 @@
     "node-fetch": "^2.6.1",
     "pg": "^8.3.3",
     "sharp": "^0.26.0",
-    "strapi": "3.5.3",
-    "strapi-admin": "3.5.3",
-    "strapi-connector-bookshelf": "3.5.3",
-    "strapi-plugin-content-manager": "3.5.3",
-    "strapi-plugin-content-type-builder": "3.5.3",
-    "strapi-plugin-email": "3.5.3",
-    "strapi-plugin-graphql": "3.5.3",
-    "strapi-plugin-upload": "^3.5.3",
-    "strapi-plugin-users-permissions": "3.5.3",
-    "strapi-provider-upload-local": "^3.5.3",
-    "strapi-utils": "3.5.3"
+    "strapi": "3.6.2",
+    "strapi-admin": "3.6.2",
+    "strapi-connector-bookshelf": "3.6.2",
+    "strapi-plugin-content-manager": "3.6.2",
+    "strapi-plugin-content-type-builder": "3.6.2",
+    "strapi-plugin-email": "3.6.2",
+    "strapi-plugin-graphql": "3.6.2",
+    "strapi-plugin-upload": "^3.6.2",
+    "strapi-plugin-users-permissions": "3.6.2",
+    "strapi-provider-upload-local": "^3.6.2",
+    "strapi-utils": "3.6.2"
   },
   "author": {
     "name": "Max Dietrich"
