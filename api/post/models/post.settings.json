@@ -33,12 +33,6 @@
       "targetField": "title",
       "required": true
     },
-    "coverImage": {
-      "type": "component",
-      "repeatable": false,
-      "component": "images.post-image",
-      "required": false
-    },
     "lang": {
       "type": "enumeration",
       "enum": [
@@ -69,6 +63,18 @@
     "negative_feedback_count": {
       "type": "integer",
       "default": 0
+    },
+    "coverImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
