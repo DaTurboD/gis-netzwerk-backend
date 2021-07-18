@@ -49,6 +49,10 @@
     "note": {
       "via": "tags",
       "model": "notes"
+    },
+    "photo": {
+      "via": "tags",
+      "model": "photos"
     }
   }
 }

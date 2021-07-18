@@ -11,9 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "date": {
-      "type": "datetime"
-    },
     "content": {
       "type": "richtext"
     },
@@ -54,7 +51,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "category": {
       "type": "enumeration",

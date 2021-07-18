@@ -24,10 +24,6 @@
       "type": "text",
       "required": true
     },
-    "date": {
-      "type": "datetime",
-      "required": true
-    },
     "slug": {
       "type": "uid",
       "targetField": "title",
@@ -47,9 +43,6 @@
     "user": {
       "plugin": "users-permissions",
       "model": "user"
-    },
-    "dateUpdated": {
-      "type": "datetime"
     },
     "syndicationLinks": {
       "type": "component",
